@@ -41,4 +41,4 @@ Possible improvements include tuning hyperparameters with cross-validation insid
 
 ## Task 5 Git and documentation
 
-`README.md` contains setup, training, API usage, model explanation, and GitHub publishing commands. The code, report, requirements, and supplied CSV are ready for version control. Publishing requires a GitHub repository URL and access to that account.
+`README.md` contains setup, training, API usage, and model explanation. The code, report, requirements, and supplied CSV are published in the [GitHub repository](https://github.com/binish124/adult-income-classification-assignment).

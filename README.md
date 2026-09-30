@@ -55,15 +55,4 @@ The positive class is `>50K`. The code uses stratified 60/20/20 training, valida
 
 ## GitHub submission
 
-The project is ready to publish to a repository you control. From this directory, after creating an empty GitHub repository:
-
-```powershell
-git init
-git add .gitignore README.md REPORT.md requirements.txt train.py app.py data/adult_raw.csv
-git commit -m "Complete Adult Income classification assignment"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
-```
-
-Replace the example remote with the repository URL. The CSV is included so the project is reproducible. Review the supplied dataset's redistribution terms before publishing it publicly.
+This project is published at [binish124/adult-income-classification-assignment](https://github.com/binish124/adult-income-classification-assignment). The supplied CSV is included so training can be reproduced. The generated model artifacts are excluded from Git; run `python train.py` after cloning.
